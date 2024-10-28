@@ -5,12 +5,12 @@
 /* ---- Modalità Tablet (sopra i 768px) ---- */
 
 @media screen and (min-width: 768px){
-    
-    
+      
     #topbar{
         display: flex;
         justify-content: flex-start;
         padding: 10px;
+        font-size: 16px;
     }
 
     main {
@@ -37,6 +37,11 @@
         width: calc(100% / 5 );
     }
 
+    .btn-orange { 
+        width: 100%;
+    }
+
+
     .ads{
         display: block;
     }
@@ -56,6 +61,76 @@
 
 @media screen and (min-width: 992px) {
 
+    #topbar{
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    main {
+        padding: 40px;
+    }
     
+    .btn-orange { 
+        width: 100%;
+    }
     
+    .recipe-card{
+        display: flex;
+        width: 100%;
+    }
+
+    .recipe-video{
+        width: 70%;
+        max-height: 450px;
+    }
+
+    .recipe-info{
+        max-width: 30%;
+    }
+
+    .well{
+        max-width: 100%;
+    }
+
+    .quick-notes ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .quick-notes ul li{
+        max-width: 100%;
+        padding: 0;  
+        
+    }
+
+    .btn .label{
+        display: inline;
+
+    }
+
+    .social-networks {
+        margin-bottom: 30px;
+    }
+
+    .ads {
+        display: inline;
+    }
+
+    .presentation .clearfix img {
+        float: left;
+        margin: 5px;
+    }
+
+    footer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    footer address{
+        text-align: left;
+    }
 }
